@@ -1,8 +1,11 @@
+package MockSong;
+import Songs.*;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-class MockSong2 {
+public class MockSong2 {
 
     public static List<SongV3> getSongV2(){
         List<SongV3> songs = new ArrayList<>();

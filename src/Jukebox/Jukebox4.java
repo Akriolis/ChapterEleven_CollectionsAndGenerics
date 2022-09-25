@@ -1,22 +1,25 @@
-import java.util.ArrayList;
+package Jukebox;
+
 import java.util.Collections;
 import java.util.List;
+import MockSong.*;
+import Compare.*;
+import Songs.*;
 
-
-public class Jukebox3 {
+public class Jukebox4 {
     public static void main(String[] args) {
-        new Jukebox3().go();
+        new Jukebox4().go();
 
     }
 
     public void go(){
-        // list from static MockSong2 class (SongV3 objects)
+
         List<SongV3> songList = MockSong2.getSongV2();
         System.out.println(songList);
 
-        // SongV3 class implements compareTo method from Comparable
+
         Collections.sort(songList);
-        // sorted by artist - in SongV3 toString() overwritten to return artist
+
         System.out.println(songList);
 
         // list from static MockSong3 class (SongV3 objects)

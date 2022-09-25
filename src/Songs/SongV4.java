@@ -1,18 +1,17 @@
-public class SongV3 implements Comparable<SongV3> {
+package Songs;
+
+public class SongV4{
     private String title;
     private String artist;
     private int bpm;
 
-    @Override
-    public int compareTo(SongV3 o) {
-        return artist.compareTo(o.artist);
-    }
+    private String album;
 
-
-    SongV3(String title, String artist, int bpm){
+    public SongV4(String title, String artist, int bpm, String album){
         this.title = title;
         this.artist = artist;
         this.bpm = bpm;
+        this.album = album;
     }
 
     public String getTitle(){
@@ -27,11 +26,12 @@ public class SongV3 implements Comparable<SongV3> {
         return bpm;
     }
 
-    @Override
-    public String toString(){
-        return artist;
+    public String getAlbum() {
+        return album;
     }
 
-
-
+    @Override
+    public String toString() {
+        return title;
+    }
 }

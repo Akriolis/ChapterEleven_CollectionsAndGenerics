@@ -1,10 +1,11 @@
+package Songs;
 
-public class SongV4{
+public class SongV2{
     private String title;
     private String artist;
     private int bpm;
 
-    SongV4(String title, String artist, int bpm){
+    public SongV2(String title, String artist, int bpm){
         this.title = title;
         this.artist = artist;
         this.bpm = bpm;
@@ -22,6 +23,9 @@ public class SongV4{
         return bpm;
     }
 
-
+    @Override
+    public String toString(){
+        return title;
+    }
 
 }

@@ -1,7 +1,9 @@
+package MockSong;
+
 import java.util.ArrayList;
 import java.util.List;
 
-class MockSong {
+public class MockSong {
 
     public static List<String> getSongStrings(){
         List<String> songs = new ArrayList<>();

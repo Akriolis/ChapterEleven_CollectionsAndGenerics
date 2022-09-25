@@ -1,8 +1,11 @@
-import org.w3c.dom.ls.LSOutput;
+package Jukebox;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import MockSong.*;
+import Compare.*;
+import Songs.*;
 
 public class Jukebox1 {
     public static void main(String[] args) {

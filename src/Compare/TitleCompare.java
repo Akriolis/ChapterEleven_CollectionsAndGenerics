@@ -1,3 +1,7 @@
+package Compare;
+
+import Songs.SongV4;
+
 import java.util.Comparator;
 
 public class TitleCompare implements Comparator <SongV4> {

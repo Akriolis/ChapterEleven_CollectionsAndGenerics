@@ -1,4 +1,8 @@
-import java.util.ArrayList;
+package Jukebox;
+
+import MockSong.*;
+import Compare.*;
+import Songs.*;
 import java.util.Collections;
 import java.util.List;
 
